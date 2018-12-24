@@ -6,6 +6,9 @@
         "name": "Kosmas Papadatos",
         "url": "https://github.com/kpapadatos"
     },
+    "scripts": {
+        "patch": "git add --all && git commit -m Changes && npm version patch && git push"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/lunarade/lunarade-core.git"
